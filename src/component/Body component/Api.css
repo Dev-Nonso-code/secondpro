@@ -8,6 +8,21 @@
     width: 10em;
     height: 7em;
 }
+/* @media screen and (max-width: 1285px){
+    #all{
+        overflow: hidden;
+        width: 1285px;
+        flex-wrap: wrap;
+    }
+    #loop{
+        max-width: 1300px;
+    }
+    #poto{
+        background-color: darkmagenta;
+        width: 7em;
+    }
+
+} */
 #loop{
     justify-content: space-between;
     margin-top: 10px;
@@ -35,7 +50,7 @@
     margin-left: -1em;
     margin-right: 6px;
     background-color: blueviolet;
-    width: 3em;
+    width: 3.1em;
     border-radius: 8px;
 }
 #poto:hover{
@@ -43,6 +58,11 @@
     background-color: slategrey;
     transition-duration: inherit;
     transition: all ease-in-out 3s;
+}
+#des{
+    max-width: 10.1em;
+    text-align: center;
+    flex-wrap: wrap;
 }
 /* .bi bi-star{
     margin-right: 10px;

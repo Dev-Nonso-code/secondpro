@@ -1,0 +1,15 @@
+#alls{
+    background-color: cadetblue;
+    color: darkgoldenrod;
+    text-align: center;
+    justify-content: center;
+    max-width: 63em;
+    flex-wrap: wrap;
+    /* height: 94em; */
+    height: max-contentnpm ;
+}
+#alls img{
+    width: 18em;
+    height: 20em;
+    margin: 4em;
+}
